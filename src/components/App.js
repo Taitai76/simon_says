@@ -1,10 +1,13 @@
 import React, { useState } from "react";
-
+import Score from './Score'
+import StartButton from "./StartButton";
 
 function App() {
   return (
     <div className="App">
-      <p>test</p>
+      <Colors />
+      <StartButton />
+      <Score />
     </div>
   );
 }
