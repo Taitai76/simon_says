@@ -4,7 +4,7 @@ function Score() {
     const [score, setScore]= useState(0);
 
     return(
-        <p>${score}
+        <p>{score}
         </p>
     );
 }
