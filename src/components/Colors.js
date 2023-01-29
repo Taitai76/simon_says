@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 
-function Colors() {
-    const colorArr = ['red', 'green', 'blue', 'orange']
-
-
+function Colors({color}) {
     return(
-        <p>this is score component
-        </p>
+        <div>{color}</div>
     );
 }
 
