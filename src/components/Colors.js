@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 
 function Colors({color}) {
+    function onClick(){
+        console.log(color)
+    }
     return(
-        <div>{color}</div>
+        <div className={`card ${color}`}
+        onClick={onClick}
+        ></div>
     );
 }
 
